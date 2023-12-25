@@ -4,6 +4,8 @@
 ## Introduction
 desktop-clock is a minimalist and elegant application for Windows, crafted with PyQt5. It features a transparent floating window that elegantly presents the current time, offering a blend of functionality and style right on your desktop.
 
+Click [here](https://www.bilibili.com/video/BV1Qj411J7pQ/) to watch the demo.
+
 ## Why desktop-clock?
 
 Perfect for users who enjoy a clutter-free desktop or often work with the taskbar hidden, This clock ensures time is always visible at a glance. It's designed for convenience, with customizable fonts and colors to match your desktop theme and personal taste.
