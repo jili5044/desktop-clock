@@ -2,11 +2,11 @@
 ### Author name: Jiaxin Liu
 
 ## Introduction
-Desktop Clock is a minimalist and elegant desktop clock application for Windows, crafted with PyQt5. It features a transparent floating window that elegantly presents the current time, offering a blend of functionality and style right on your desktop.
+desktop-clock is a minimalist and elegant application for Windows, crafted with PyQt5. It features a transparent floating window that elegantly presents the current time, offering a blend of functionality and style right on your desktop.
 
-## Why Desktop Clock?
+## Why desktop-clock?
 
-Perfect for users who enjoy a clutter-free desktop or often work with the taskbar hidden, This desktop clock ensures time is always visible at a glance. It's designed for convenience, with customizable fonts and colors to match your desktop theme and personal taste.
+Perfect for users who enjoy a clutter-free desktop or often work with the taskbar hidden, This clock ensures time is always visible at a glance. It's designed for convenience, with customizable fonts and colors to match your desktop theme and personal taste.
 
 Key Features:
 
@@ -36,7 +36,7 @@ Ensure Python and PyQt5 are installed on your system before setting up.
 
 ## Usage
 
-Run Desktop Clock with the following command in the project directory:
+Run desktop-clock with the following command in the project directory:
    ```sh
    python deskClock.py
    ```
@@ -44,7 +44,7 @@ Upon launch, the clock will appear on your desktop. Right-click on the **clock d
 
 ## Customization
 
-Tailor Desktop Clock to your liking:
+Tailor desktop-clock to your liking:
 
 - Change font styles and colors through the settings dialog
 - Switch between time formats to suit your preference
