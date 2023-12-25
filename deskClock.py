@@ -166,7 +166,7 @@ class TransparentClock(QMainWindow):
     def contextMenuEvent(self, event):
         menu = QMenu(self)
         settingsAction = menu.addAction("Settings")
-        quitAction = menu.addAction("Quit")
+        quitAction = menu.addAction("Hide")
         action = menu.exec_(self.mapToGlobal(event.pos()))
         if action == settingsAction:
             self.isSettingsDialog = True
@@ -181,7 +181,7 @@ class TransparentClock(QMainWindow):
 
     def createTrayIcon(self):
         self.trayIcon = QSystemTrayIcon(self)
-        self.trayIcon.setIcon(QIcon('clock.png'))  # 设置你的图标路径
+        self.trayIcon.setIcon(QIcon('clock.png'))  # 设置图标路径
 
         # 创建一个显示时钟的动作
         showAction = QAction("Clock Switch", self)
@@ -213,13 +213,12 @@ class TransparentClock(QMainWindow):
             self.saveSettings()
             event.ignore()
             self.hide()
-            self.trayIcon.showMessage('Running', 'Your application is still running.', QSystemTrayIcon.Information, 2000)
+            self.trayIcon.showMessage('Running', 'Application is running in tray.', QSystemTrayIcon.Information, 2000)
         else:
             event.ignore()
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     clock = TransparentClock()
-    # clock.show()
-    clock.hide()
+    clock.show()
     sys.exit(app.exec_())
