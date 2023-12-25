@@ -117,7 +117,7 @@ class TransparentClock(QMainWindow):
 
     def setFontSize(self, value):
         self.fontSize = value
-        self.label.setFont(QFont('Bahnschrift SemiBold', self.fontSize))
+        self.label.setFont(QFont(self.fontFamily, self.fontSize))
         self.saveSettings()
 
     def chooseColor(self):
