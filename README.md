@@ -6,7 +6,7 @@ Desktop Clock is a minimalist and elegant desktop clock application for Windows,
 
 ## Why Desktop Clock?
 
-Perfect for users who enjoy a clutter-free desktop or often work with the taskbar hidden, Desktop Clock ensures time is always visible at a glance. It's designed for convenience, with customizable fonts and colors to match your desktop theme and personal taste.
+Perfect for users who enjoy a clutter-free desktop or often work with the taskbar hidden, This desktop clock ensures time is always visible at a glance. It's designed for convenience, with customizable fonts and colors to match your desktop theme and personal taste.
 
 Key Features:
 
@@ -19,11 +19,11 @@ Key Features:
 
 ## Installation
 
-Ensure Python and PyQt5 are installed on your system before setting up Desktop Clock.
+Ensure Python and PyQt5 are installed on your system before setting up.
 
 1. Clone the repository:
    ```sh
-   https://github.com/jili5044/desktop-clock.git
+   git clone https://github.com/jili5044/desktop-clock.git
    ```
 2. Navigate to the project directory:
    ```sh
@@ -52,7 +52,7 @@ Tailor Desktop Clock to your liking:
 
 ## Contributing
 
-Contributions are welcome and greatly appreciated. Whether it's bug reporting, feature requests, or code contributions, your input helps improve Desktop Clock for everyone.
+Contributions are welcome and greatly appreciated. Whether it's bug reporting, feature requests, or code contributions, your input helps improve this for everyone.
 
 Feel free to fork the repo, create a feature branch, and submit a pull request!
 
