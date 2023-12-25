@@ -97,12 +97,12 @@ class TransparentClock(QMainWindow):
     def initUI(self):
         self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint | Qt.Tool)
         self.setAttribute(Qt.WA_TranslucentBackground)
-        self.setGeometry(300, 300, 800, 170)
+        self.setGeometry(300, 300, 1200, 170)
         self.label = QLabel(self)
         self.label.setAlignment(Qt.AlignCenter)
         # self.setFontSize(self.fontSize)
         # self.setFontColor(self.fontColor)
-        self.label.setFixedSize(700, 120)  # Adjust the size of the QLabel if necessary
+        self.label.setFixedSize(1000, 120)  # Adjust the size of the QLabel if necessary
 
         timer = QTimer(self)
         timer.timeout.connect(self.showTime)
